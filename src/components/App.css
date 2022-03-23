@@ -9,3 +9,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.col{
+  border: 2px solid red;
+}
+#container{
+  max-width: 660px;
+  padding: 0px;
+}
+button{
+  width: 100px;
+  height: 100px;
+}
