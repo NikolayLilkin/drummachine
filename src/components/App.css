@@ -9,14 +9,33 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.col{
-  border: 2px solid red;
-}
 #container{
   max-width: 660px;
   padding: 0px;
+  border: 1px solid yellowgreen;
 }
 button{
-  width: 100px;
-  height: 100px;
+  width: 3rem;
+  height: 3rem;
+  background-color: #fdcb0d !important;
+  border-color: #fdcb0d !important;
 }
+#range{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+p{
+  margin-bottom: 0px;
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color:#fdcb0d !important;
+}
+.custom-control-input {
+  background-color: #fdcb0d;
+}
+.form-check-input:checked {
+  background-color: #fdcb0d !important;
+  border-color: #fdcb0d !important;
+}
+
