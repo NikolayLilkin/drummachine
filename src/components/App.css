@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #19A2E6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,30 +12,27 @@
 #container{
   max-width: 660px;
   padding: 0px;
-  border: 1px solid yellowgreen;
 }
 button{
   width: 3rem;
   height: 3rem;
-  background-color: #fdcb0d !important;
-  border-color: #fdcb0d !important;
+  background-color: #E65D19 !important;
+  border-color: #e65D19 !important;
 }
 #range{
   padding-left: 1rem;
   padding-right: 1rem;
 }
 p{
-  margin-bottom: 0px;
+  margin: 5px !important;
 }
-
 .form-range::-webkit-slider-thumb {
-  background-color:#fdcb0d !important;
+  background-color:#E65D19 !important;
 }
 .custom-control-input {
-  background-color: #fdcb0d;
+  background-color: #E65D19;
 }
 .form-check-input:checked {
-  background-color: #fdcb0d !important;
-  border-color: #fdcb0d !important;
+  background-color: #E65D19 !important;
+  border-color: #E65D19 !important;
 }
-
